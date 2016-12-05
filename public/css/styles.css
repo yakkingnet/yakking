@@ -1,0 +1,196 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis';
+body, html {
+    height: 100%;
+    background-color: #5F9EA0;
+    font-family: "Helvetica";
+    color: white;
+}       
+
+iframe {  
+  width: 400; 
+  height: 255;
+ }
+
+h4 { 
+  padding-bottom: 30px; 
+  color: #e8ebef;
+ }
+
+.buttons { 
+  padding-left: 12%;
+ }
+
+.button { 
+    border: none;
+    color: white;
+    padding: 15px 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px px;
+    cursor: pointer;
+} 
+
+
+
+.buttonteal { 
+  background: #39CCCC; 
+ } 
+
+ .buttonred { 
+  background: #B22222;
+  }  
+
+.buttonblack { 
+  background: black; 
+ }  
+
+.buttonnavy { 
+  background: #001f3f; 
+ }  
+
+.buttonpink { 
+  background: #FFBFDF; 
+ } 
+
+.buttonblue { 
+  background: #0074D9; 
+ }  
+
+.buttonpurple { 
+  background: #8A2BE2; 
+ } 
+
+.buttonorange { 
+  background: #FF851B; 
+ } 
+
+.buttonfuchsia { 
+  background: #F012BE; 
+ }
+
+p {
+  color: white;
+}
+
+.panel-default {  
+  background: #4A403E;
+ }
+
+h1 {     
+  height: 150px;
+  padding-top: 7px;
+  text-align: center;
+  font-size: 180%;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+} 
+
+.tn btn-primary {
+ background-color: #444;
+}  
+
+#inputname { 
+  margin: auto; 
+  padding-left: 6%; 
+  padding-right: 6%;
+ }
+
+.form-group {  
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-bottom: 50%;
+}
+
+.form-control { 
+  text-align: center;
+  color: black;
+  background-color: white;
+  height: 80px;
+  width: 310px;
+  font-size: 30px;
+  border-radius: 20px;
+  border-color: #4f9ed6;
+  border-width: 5px;px;
+}
+
+input::-webkit-input-placeholder {
+   font-size: 20px;
+}
+
+.message-list {    
+    padding-bottom: 40px;
+    color: white;
+    font-size: 20px;
+    overflow: scroll;
+    margin: 7;
+
+    padding-top: 20px;
+}
+.message-section {   
+    padding-bottom: 40px;
+    color: white;
+    height: 90%; 
+    width: 70%; 
+    max-width: 400px; 
+
+}
+.message-composer {  
+    width: 50px;  
+    margin-left: 5%; 
+    padding-left: 10px;
+} 
+
+.message-author-name {  
+  padding: 5px;  
+  border-radius: 10px;
+  color: black; 
+  background: #DDDDDD; 
+  width: 30px;
+}
+
+
+}
+.message-composer input { 
+    width: 25%;
+    height: 90px;
+    font-size: 30px;
+    border-radius: 0px; 
+}
+
+/*
+* Helper Classes
+*/
+.layout-flex-column {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.layout-flex-row {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+.flex {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.center-content {
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.margin-top {
+    margin-top: 25px;
+}
+.full-width {
+    width: 100%;
+} 

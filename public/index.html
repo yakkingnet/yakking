@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Yakking - A chat site for anonymously connecting with new people through text.</title> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="initial-scale=1">
+    <script type='text/javascript' src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+  </head> 
+
+
+<script>
+    alert("By clicking ok or close you are agreeing that you are over 16 years old.");
+</script>
+
+
+  <body class="layout-flex-column">  
+
+
+<div class="buttons"> 
+ <button class="button buttonteal" onclick="teal()"></button>   
+ <button class="button buttonblue" onclick="blue()"></button>
+ <button class="button buttonnavy" onclick="navy()"></button>  
+ <button class="button buttonblack" onclick="black()"></button>  
+ <button class="button buttonred" onclick="red()"></button>  
+ <button class="button buttonpink" onclick="pink()"></button>   
+ <button class="button buttonpurple" onclick="purple()"></button>  
+ <button class="button buttonorange" onclick="orange()"></button>  
+
+</div>
+
+
+<script>
+function teal() {
+    document.body.style.background = "#39CCCC no-repeat right top";
+}  
+function blue() {
+    document.body.style.background = "#0074D9 no-repeat right top";
+} 
+function red() {
+    document.body.style.background = "#B22222 no-repeat right top";
+} 
+function black() {
+    document.body.style.background = "#000000 no-repeat right top";
+} 
+function navy() {
+    document.body.style.background = "#001f3f no-repeat right top";
+} 
+function pink() {
+    document.body.style.background = "#FFBFDF no-repeat right top";
+} 
+function purple() {
+    document.body.style.background = "#8A2BE2 no-repeat right top";
+} 
+function orange() {
+    document.body.style.background = "#FF851B no-repeat right top";
+}  
+</script>
+
+    <section id="react" class="flex layout-flex-column center-content"></section>
+    <script src="js/bundle.js"></script>
+
+
+  </body>
+</html>
